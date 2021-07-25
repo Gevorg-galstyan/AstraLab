@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    padding-top: 63px !important;
+    padding-bottom: 0 !important;
+    height: 100vh;
+    width: 100%;
+    background: #FAF3F3;
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+h1 {
+    padding: 0 40px;
+    text-align: center;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 800;
+    color: #181C43;
+}
+
+p {
+    padding: 20px 40px 0;
+    text-align: center;
+}
+
+button {
+    box-shadow: none !important;
+}
+
+button.primary {
+    background-color: #1E1A3E !important;
+    color: #fff;
+}
+
+label {
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+img {
+    max-width: 100%;
+}
+
+.sign_wrap {
+    margin-top: 20px;
+    padding: 23px 22px 18px;
+    background: #fff;
+    border-radius: 40px;
+}
+
+.action_btn, button[disabled] {
+    height: 48px !important;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: capitalize;
+}
+
+.change_page, .change_sign-page {
+    color: #1E1A3E;
+    font-weight: 500;
+}
+
+.sign_input {
+    border-radius: 50px;
+}
+
+.sign_input label {
+    line-height: 20px !important;
+    font-size: 14px;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.sign_input .v-input__slot {
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+    height: 36px;
+    background: #F3F3FA !important;
+    box-shadow: none !important;
+}
+
+.top_label {
+    display: inline-block;
+    padding: 0 18px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+@media all and (max-height: 700px) {
+    main {
+        overflow-y: auto;
+        padding-top: 40px !important;
+    }
+}
